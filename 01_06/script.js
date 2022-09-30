@@ -7,6 +7,12 @@
 /* Multi-line comment
 See! this line is also commented out! */
 
+// forward slash and two starts to add function level comment (supported in vs code)
+/**
+ * function updateBackpack()
+ * returns HTML
+ * @param {String} update
+ */
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
   main.innerHTML = markup(backpack);
